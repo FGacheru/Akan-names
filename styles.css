@@ -1,9 +1,10 @@
-.jumbotron{
-    /* background-image: url(./images/ghana.jpeg); */
-    background-color: wheat;
-    background-repeat: no-repeat;
-    /* height: 200px; */
+body{
+    background-color:  #e9ecef;;
 }
+.jumbotron{
+    /* background-color: wheat; */
+    background-repeat: no-repeat;
+    }
 .heading{
     text-align: center;
     text-decoration-line: underline;
