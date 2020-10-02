@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Akan-Names</title>
-    <link rel="stylesheet" href="./js/main.js">
     <link rel="stylesheet" href="./styles.css">
 
 </head>
@@ -21,74 +20,77 @@
                         <h2>AKAN NAME</h2>
                         <h3>Get Your Akan Name Easy And Fast!!!</h3>
                     </span>
-                    <form class="form-horizontal" action="/action_page.php">
+                    <form>
                         <div class="col-md">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="dob">Centuary of Brth:</label>
+                                <label class="control-label col-sm-2" for="dob">Centuary of Birth:</label>
                                 <div class="col-sm-10">
-                                    <input type="century" class="form-control" id="centuary" placeholder="I.e 20 If born in the 20th Centuary"
-                                        name="dob">
+                                    <input type="number" class="form-control" id="centuary"
+                                        placeholder="I.e 20 If born in the 20th Centuary" name="dob">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="year">Year of Birth:</label>
                                 <div class="col-sm-10">
-                                    <input type="year" class="form-control" id="year" placeholder="I.e 00 if born in 2000" name="">
+                                    <input type="number" class="form-control" id="year"
+                                        placeholder="I.e 00 if born in 2000" name="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="month">Month of Birth:</label>
                                 <div class="col-sm-10">
-                                    <input type="month" class="form-control" id="month" placeholder="Enter the month of the year" name="">
+                                    <input type="number" class="form-control" id="month"
+                                        placeholder="Enter the month of the year" name="">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="day">Day of Birth:</label>
                                 <div class="col-sm-10">
-                                    <input type="day" class="form-control" id="day" placeholder="Enter the day of the month" name="">                
+                                    <input type="number" class="form-control" id="day"
+                                        placeholder="Enter the day of the month" name="">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <!-- <label class="control-label col-sm-2" for="month">Gender:</label> -->
+                                <label for="exampleFormControlSelect1">Select gender</label>
                                 <div class="col-sm-10">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Select gender</label>
-                                        <select class="form-control" id="exampleFormControlSelect1"required>
-                                          <option></option>
-                                          <option>male</option>
-                                          <option>female</option>
-                                </div>
+                                <select class="form-control " id="gender">
+                                  <option value=""></option>
+                                  <option>Male</option>
+                                  <option>Female</option>
+                                </select>
                             </div>
-                            <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="reset" class="btn btn-default">Reset</button>
-                                </div>
-                            </div>
-                               
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-default">Submit</button>
-                               
-                                </div>
-                            </div>
-        
+                              </div>
+                            <button type="submit" class="btn btn-success" onclick="akanName()">Submit</button>
+
+                            <button type="reset" class="btn btn-danger">Reset</button>
                         </div>
-        
                     </form>
-                    <!-- Akan names.This are names derived from Ghanian culture.
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+            <!-- Akan names.This are names derived from Ghanian culture.
                     Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the
                     week they were born.
                     It is also possible for you to know the name you could have inherited if you were to be born in Ghana by
                     filling the form given below; -->
-                    
-                </div>
-            </div>
-         <!-- <div class="col-md-6">
+
+        </div>
+    </div>
+    <!-- <div class="col-md-6">
                 <img src="./images/africa.jpg" alt="">
             </div>    -->
-        </div>
-       
+    </div>
+
 
     </div>
+    <script src="./js/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
