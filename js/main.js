@@ -1,10 +1,18 @@
-var akanFemaleName=['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+var akanFemaleName=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var akanMaleName=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
-var centuary=document.perseInt(getElementById('centuary').value);
-var year=document.perseInt(getElementById('year').value);
-var month=document.perseInt(getElementById('month').value);
-var day=document.perseInt(getElementById('day').value);
+function CC(){
+var centuary=perseInt(document.getElementById('centuary').value);
+}
+function yy(){
+var year=perseInt(document.getElementById('year').value);
+}
+function mm(){
+var month=perseInt(document.getElementById('month').value);
+}
+function dd(){
+var day=perseInt(document.getElementById('day').value);
+}
 
     
     
