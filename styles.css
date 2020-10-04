@@ -1,4 +1,6 @@
-
+.jumbotron{
+    background-image: url("./images/1200px-Flag_of_Ghana.svg.png");
+}
 .heading{
     text-align: center;
     text-decoration-line: underline;
