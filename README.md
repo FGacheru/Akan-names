@@ -1,4 +1,4 @@
-<!-- # Portfolio
+# Portfolio
 #### Portfolio is a website that describes about someone. That is the 'curriculum vitae'.It was created on 26/09/2020.
 ## Author
 By  Francis Gacheru.
@@ -19,4 +19,4 @@ The website is all about my description.
 I would like to give credit to my Technical mentor for the guidance he gave me towards the development of this web.
 ### License
 * Licensed under the MIT license
-Copyright (c) [2020] (Francis Gacheru) -->
+Copyright (c) [2020] (Francis Gacheru)

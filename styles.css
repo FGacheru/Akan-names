@@ -4,10 +4,12 @@
 .heading{
     text-align: center;
     text-decoration-line: underline;
+    
 }
-/* .row{
-    color: blue;
-} */
+.head{
+    text-align: center;
+    font-style: italic;
+}
 .col-6{
     border: 1px dotted green;
 }
