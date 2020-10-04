@@ -9,13 +9,14 @@ By  Francis Gacheru.
 * now git clone https://github.com/FGacheru/Akan-names
 * cd portfolio
 * you can use code . or atom . to open it.
-<!-- ## Known Bugs
+## Known Bugs
 ## Technologies Used
 * HTML5
 * CSS
+* Java Script
 * Git and Github
 ## Support and contact details
 I would like to give credit to my Technical mentor for the guidance he gave me towards the development of this web.
-### License
+<!-- ### License
 * Licensed under the MIT license
 Copyright (c) [2020] (Francis Gacheru) -->
