@@ -1,16 +1,15 @@
-# Portfolio
-#### Portfolio is a website that describes about someone. That is the 'curriculum vitae'.It was created on 26/09/2020.
+# Akan Names
+#### Akan name is all about the Ghananian culture.It was created on 04/10/2020.
 ## Author
 By  Francis Gacheru.
-## Description of my portfolio
- A portfolio is used as a curriculum  vitae and purposely for letting  people who want to offer job get more information about the person. The website will act as a template/guide for those people who want to offer their curriculum  vitae as a live link rather than documented hard/soft copy curriculum vitae.
-The website is all about my description.
+## Description of akan names
+ In Ghana children are named according to the days of the week in which they were born. It all depends with your gender and your birthday.
 ## project Set up Instructions
 * Ctrl + alt + t to open the terminal
-* now git clone https://github.com/FGacheru/Portfolio
+* now git clone https://github.com/FGacheru/Akan-names
 * cd portfolio
 * you can use code . or atom . to open it.
-## Known Bugs
+<!-- ## Known Bugs
 ## Technologies Used
 * HTML5
 * CSS
@@ -19,4 +18,4 @@ The website is all about my description.
 I would like to give credit to my Technical mentor for the guidance he gave me towards the development of this web.
 ### License
 * Licensed under the MIT license
-Copyright (c) [2020] (Francis Gacheru)
+Copyright (c) [2020] (Francis Gacheru) -->
