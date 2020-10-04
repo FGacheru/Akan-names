@@ -17,6 +17,6 @@ By  Francis Gacheru.
 * Git and Github
 ## Support and contact details
 I would like to give credit to my Technical mentor for the guidance he gave me towards the development of this web.
-<!-- ### License
+### License
 * Licensed under the MIT license
-Copyright (c) [2020] (Francis Gacheru) -->
+Copyright (c) [2020] (Francis Gacheru)
